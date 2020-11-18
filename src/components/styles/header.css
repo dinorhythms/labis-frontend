@@ -1,0 +1,34 @@
+.topbar {
+	color: #fff;
+	/* padding-top: 15px; */
+}
+
+.topbar .brand {
+	font-size: 2rem;
+	/* margin-top: 10px; */
+	/* margin-left: 3.0rem; */
+	font-weight: bolder;
+}
+
+.topbar .signin-btn {
+	margin-right: 3.0rem;
+}
+
+.topbar .brand span {
+	color: coral;
+}
+
+.scrolled {
+	background-color: #00000087!important;
+	transition:500ms ease;
+}
+
+@media(max-width: 360px){
+	.topbar .brand {
+		margin-left:1.5rem;
+	}
+	.topbar .signin-btn {
+		margin-right: 1.5rem;
+	}
+	
+}
