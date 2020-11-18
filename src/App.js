@@ -1,11 +1,10 @@
-import { Switch, Route } from 'react-router-dom';
+import modules from './modules';
+
+const { Public } = modules;
 function App() {
   return (
     <div className="App">
-			<Switch>
-				<Route exact path="/" render={()=> <h1>Landing Page</h1>}/>
-				<Route path="/signin" render={()=> <h1>Sign in Page</h1>}/>
-			</Switch>
+			<Public/>
     </div>
   );
 }
