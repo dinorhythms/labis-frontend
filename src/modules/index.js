@@ -1,7 +1,9 @@
 import Public from './public';
+import Private from './private';
 
 const modules = {
-	Public
+	Public,
+	Private
 }
 
 export default modules;

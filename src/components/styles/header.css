@@ -23,6 +23,14 @@
 	transition:500ms ease;
 }
 
+.navbar .nav-link {
+	color: #fff!important;
+}
+
+.navbar .nav-link:hover {
+	color: rgb(206, 197, 197)!important;
+}
+
 @media(max-width: 360px){
 	.topbar .brand {
 		margin-left:1.5rem;
