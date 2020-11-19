@@ -1,0 +1,12 @@
+.brouse {
+	color: #fff;
+}
+
+.modal-dialog {
+	max-width: 670px!important;
+	margin: 1.75rem auto;
+}
+
+.modal-content {
+	background-color: #f0f8ff00;
+}
